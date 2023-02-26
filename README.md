@@ -8,7 +8,7 @@
 4. Run the `ObservatoryCore` executable
 
 ## Nightly releases
-A ObservatoryCore Linux build will be published every night. Check the releases tab.
+A ObservatoryCore Linux build will be published every night. Check the releases tab or [click here](https://github.com/cerus/observatorycore-linux/releases/tag/nightly/latest).
 
 ## Requirements
 - .NET 6
