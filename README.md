@@ -16,3 +16,6 @@ A ObservatoryCore Linux build will be published every night. Check the releases 
 
 ## How to build
 Run build.sh
+
+## Images
+![Img](https://i.imgur.com/Hx595j4.png)
