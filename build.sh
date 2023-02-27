@@ -5,13 +5,9 @@ git clone https://github.com/Xjph/ObservatoryCore
 cd ObservatoryCore
 
 # -- Build the repo
-# Build the framework
+# Build everything
 ./buildAllComponents -c Release
-# Copy the required dll
-cp ObservatoryFramework/bin/Release/net6.0/linux-x64/ObservatoryFramework.dll ObservatoryFramework/bin/Release/net6.0
-# Now build everything
-./buildAllComponents -c Release
-# ..and finally publish
+# ..and publish
 dotnet publish ObservatoryCore/ObservatoryCore.csproj /property:GenerateFullPaths=true /consoleloggerparameters:NoSummary -c Release
 
 # -- Cleanup
@@ -22,4 +18,5 @@ tar -czvf ../../../../../../linux64.tar.gz .
 cd ../../../../../../
 rm -rf ObservatoryCore
 
+echo ""
 echo "Done! Compiled and zipped to linux64.tar.gz"
