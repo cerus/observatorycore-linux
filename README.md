@@ -4,10 +4,10 @@
 
 ## Tested distributions
 
-| Distro     | Version | Status | Notes        | Updated    |
-|------------|---------|--------|--------------|------------|
-| Arch Linux | /       | ✅      |              | Mar 03, 23 |
-| Linux Mint | 21.1    | ⚠️     | See issue #1 | Mar 03, 23 |
+| Distro     | Version | Status | Notes                                                                   | Updated    |
+|------------|---------|--------|-------------------------------------------------------------------------|------------|
+| Arch Linux | /       | ✅      |                                                                         | Mar 03, 23 |
+| Linux Mint | 21.1    | ⚠️     | See issue [#1](https://github.com/cerus/observatorycore-linux/issues/1) | Mar 03, 23 |
 
 ## Setup
 
