@@ -1,5 +1,7 @@
 # observatorycore-linux
 
+> **Important notice:** Linux support will be officially dropped by ObservatoryCore. See issue [#3](https://github.com/cerus/observatorycore-linux/issues/3) for more details.
+
 **Unofficial** Linux builds for [ObservatoryCore](https://github.com/Xjph/ObservatoryCore)
 
 ## Tested distributions
