@@ -29,6 +29,7 @@ dotnet publish ObservatoryCore/ObservatoryCore.csproj /property:GenerateFullPath
 # Zip everything
 cd ObservatoryCore/bin/Release/net6.0/publish/
 cp -r ../plugins .
+cp ../*.so runtimes/linux-x64/native
 tar -czvf ../../../../../../linux64.tar.gz .
 cd ../../../../../../
 rm -rf ObservatoryCore
